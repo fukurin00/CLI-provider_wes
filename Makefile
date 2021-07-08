@@ -17,7 +17,7 @@ TARGET=cli
 build: $(TARGET)
 
 $(TARGET): $(TARGET).go
-	$(GOBUILD) -ldflags $(LDFLAGS)
+	$(GOBUILD) -o $(TARGET) -ldflags $(LDFLAGS)
 
 .PHONY: clean
 clean: 
