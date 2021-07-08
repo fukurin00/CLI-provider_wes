@@ -1,0 +1,1 @@
+..\cli.exe --wmsCsv wms_order.csv
